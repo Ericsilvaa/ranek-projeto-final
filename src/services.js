@@ -9,6 +9,15 @@ axiosInstance.get()
 export const api = {
   get(endpoint) {
     return axiosInstance.get(endpoint)
+  },
+  post(endpoint, body) {
+    return axiosInstance.post(endpoint, body)
   }
 
+}
+
+
+// Requisição API CEP
+export function getCep(cep) {
+  return axios.get(`https://viacep.com.br/ws/${cep}/json/`)
 }

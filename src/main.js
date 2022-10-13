@@ -7,6 +7,8 @@ import PaginaCarregando from '@/components/PaginaCarregando.vue'
 Vue.config.productionTip = false
 
 Vue.component("PaginaCarregando", PaginaCarregando)
+
+// filtro dinheiro
 Vue.filter("numeroPreco", valor => {
   valor = Number(valor)
   if(!isNaN(valor)) {
