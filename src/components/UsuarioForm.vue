@@ -35,8 +35,8 @@
 </template>
 
 <script>
-import {mapFields} from '@/helpers'
-import {getCep} from '@/services'
+import { mapFields } from '@/helpers'
+import { getCep } from '@/services'
 
 export default {
 
